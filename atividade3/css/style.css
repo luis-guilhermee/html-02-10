@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(48, 0, 21);
+    color: #fff;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 80px;
+    height: 10vh;
+    flex-wrap: wrap;
+}
+nav img {
+    height: 60px;
+    width: auto;
+}
+nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 50px;
+    flex-wrap: wrap;
+    font-size: 1.6rem;
+}
+button {
+    height: 50px;
+    width: 150px;
+    font-size: 1.4rem;
+    align-self: self-start;
+    margin-left: 120px;
+    border-radius: 50px;
+    background-color: rgb(198, 169, 92);
+    border: none;
+    color: white;
+    flex-wrap: wrap;
+}
+main{
+    display: flex;
+}
+.texto{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+    height: 90vh;
+    gap: 20px;
+}
+.texto p {
+    width: 35vw;
+    flex-wrap: wrap;
+}
+.texto img {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 80px;
+}
+.texto p {
+    line-height: 1.6;
+    font-size: 1.8rem;
+}
+aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+    height: 90vh;
+}
+aside img {
+    width: 40vw;
+    height: auto;
+}
+.garrafas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 40vw;
+}
+.garrafas img {
+    height: 200px;
+    width: auto;
+}
